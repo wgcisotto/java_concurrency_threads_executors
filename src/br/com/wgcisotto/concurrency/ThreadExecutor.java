@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ThreadExecutor {
 
-    public static void execute(JobInterface job){
+    public static void singleThreadExecutor(JobInterface job){
 
         System.out.println("Executar Job");
 

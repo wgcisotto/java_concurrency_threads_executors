@@ -10,7 +10,7 @@ public class Main {
             System.out.println("Aqui eu defino que deve ser Executado");
         };
 
-        ThreadExecutor.execute(job);
+        ThreadExecutor.singleThreadExecutor(job);
 
     }
 
